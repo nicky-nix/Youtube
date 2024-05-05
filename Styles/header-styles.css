@@ -1,0 +1,280 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  border-bottom: 2px solid rgb(223, 222, 222);
+}
+
+.left-section {
+  align-items: center;
+  display: flex;
+}
+
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.youtube-logo {
+  cursor: pointer;
+  height: 20px;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 700px;
+}
+
+.Search-bar {
+  z-index: 2;
+  font-family: Roboto;
+  flex: 1;
+  height: 32px;
+  padding-left: 20px;
+  padding-right: 15px;
+  font-size: 15px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 40px 0 0 40px;
+  box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.06);
+}
+
+.Search-bar::placeholder {
+  font-family: Roboto;
+  font-size: 17px;
+}
+
+.search-button {
+  position: relative;
+  border-radius: 0 40px 40px 0;
+  width: 66px;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(173, 173, 173);
+  margin-left: -1px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.v-search-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.v-search-button:hover .tooltip {
+  opacity: 1;
+}
+
+.search-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip {
+  opacity: 1;
+}
+
+.yt-apps-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  right: 160px;
+}
+
+.yt-apps-button:hover .tooltip {
+  opacity: 1;
+}
+
+.upload-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  right: 130px;
+}
+
+.upload-button:hover .tooltip {
+  opacity: 1;
+}
+
+.notif-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -40px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  right: -25px;
+}
+
+.notif-button:hover .tooltip {
+  opacity: 1;
+}
+.search-icon {
+  height: 25px;
+  margin-top: 4px;
+}
+
+.v-search-button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 360px;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.v-search-icon {
+  height: 22px;
+}
+
+.right-section {
+  flex-shrink: 0;
+  display: flex;
+  margin-right: 15px;
+  width: 210px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-box {
+  display: flex;
+}
+.yt-apps-button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+.yt-apps-icon {
+  height: 30px;
+}
+
+.upload-button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.upload-icon {
+  height: 30px;
+}
+
+.notif-button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.notif-icon {
+  height: 30px;
+}
+
+.mypfp-button {
+  border-radius: 360px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.mypfp {
+  border-radius: 22.5px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.mypfp-contacts {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  vertical-align: middle;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 3px 3px 10px grey;
+  justify-content: space-evenly;
+  transition: opacity 0.15s;
+  border-radius: 8px;
+  right: 50px;
+  opacity: 0;
+}
+
+.mypfp-button:active .mypfp-contacts {
+  opacity: 1;
+}
+
+.mypfp-contacts img {
+  width: 50px;
+}
+
+.pakyo {
+  margin-top: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}

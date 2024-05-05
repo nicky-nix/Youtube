@@ -1,0 +1,147 @@
+.vid-prev {
+  margin-right: 8px;
+}
+.Search-bar {
+  display: block;
+}
+.vid-preview-box {
+  margin-bottom: 15px;
+}
+
+.one-vertical {
+  position: relative;
+}
+
+.video-time {
+  font-weight: bolder;
+  font-family: Roboto;
+  position: absolute;
+  background-color: black;
+  color: white;
+  right: 10px;
+  bottom: 20px;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.vid-preview-box2 {
+  margin-bottom: 15px;
+}
+
+.vid-thumbnail {
+  width: 100%;
+  margin-bottom: 10px;
+  aspect-ratio: 16/9;
+}
+
+.vid-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.pfp-char {
+  border-radius: 360px;
+  width: 36px;
+}
+
+.vid-info {
+}
+
+.vid-title {
+  font-weight: 600;
+  width: 340px;
+  line-height: 23px;
+  margin-bottom: 9px;
+}
+
+.vid-author {
+  margin-bottom: 3px;
+  width: 340px;
+  font-size: 15px;
+  color: rgb(110, 110, 110);
+}
+
+.vid-status {
+  width: 340px;
+  color: rgb(110, 110, 110);
+  font-size: 15px;
+}
+
+.vid-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
+.header {
+  z-index: 100;
+}
+
+.notif-number-container {
+  position: relative;
+}
+
+.notif-number {
+  top: -1px;
+  right: -3px;
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: bolder;
+  border-radius: 360px;
+  font-size: 11px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.channel .info {
+  pointer-events: none;
+  opacity: 0;
+  top: 50px;
+  width: 200px;
+  display: flex;
+  position: absolute;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 3px 3px 10px grey;
+  justify-content: center;
+  transition: opacity 0.15s;
+  border-radius: 8px;
+}
+
+.channel:hover .info {
+  opacity: 1;
+}
+
+.channel .pfp-char-tooltip {
+  box-shadow: 1px 1px 3px rosybrown;
+  border-radius: 260px;
+  width: 50px;
+}
+
+.channel .tooltip-channel-info {
+  vertical-align: middle;
+  justify-content: center;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.channel .tooltip-channel-info p {
+  margin-bottom: 3px;
+}
+
+.channel {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  position: relative;
+}

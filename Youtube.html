@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styles/video-preview-styles.css" />
+    <link rel="stylesheet" href="Styles/header-styles.css" />
+    <link rel="stylesheet" href="Styles/general-styles.css" />
+    <link rel="stylesheet" href="Styles/side-bar.css" />
+    <title>Youtube</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="Header icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="Header icons/youtube-logo.svg" />
+      </div>
+
+      <div class="middle-section">
+        <input class="Search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="Header icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="v-search-button">
+          <img class="v-search-icon" src="Header icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <button class="yt-apps-button">
+          <img class="yt-apps-icon" src="Header icons/youtube-apps.svg" />
+          <div class="tooltip">Youtube apps</div>
+        </button>
+        <button class="upload-button">
+          <img class="upload-icon" src="Header icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </button>
+        <button class="notif-button">
+          <div class="notif-number-container">
+            <img class="notif-icon" src="Header icons/notifications.svg" />
+            <div class="notif-number">7</div>
+            <div class="tooltip">Notifications</div>
+          </div>
+        </button>
+        <button class="mypfp-button">
+          <img class="mypfp" src="Channel/mypfp.jpg" />
+
+          <div id="main" class="mypfp-contacts">
+            <a href="https://web.facebook.com/YuiYuiYoYo"
+              ><img src="Contacts Mypfp/icons8-facebook.svg"
+            /></a>
+            <a href="https://www.instagram.com/nicky.nae/"
+              ><img src="Contacts Mypfp/icons8-insta-60.svg"
+            /></a>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="side-bar">
+      <div class="sidebar-link">
+        <img src="Sidebar Icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Sidebar Icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Sidebar Icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Sidebar Icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Sidebar Icons/youtube-music.svg" />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Sidebar Icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="vid-grid">
+      <div class="vid-preview-box vid-prev">
+        <div class="one-vertical">
+          <a href="https://www.youtube.com/watch?v=g4n83pHGtd8">
+            <img class="vid-thumbnail" src="Thumbnail/vid1.webp" />
+          </a>
+          <div class="video-time">14:12</div>
+        </div>
+
+        <div class="vid-info-grid">
+          <div class="channel">
+            <img class="pfp-char" src="Channel/pfp1.jpg" />
+            <div class="info">
+              <img class="pfp-char-tooltip" src="Channel/pfp1.jpg" />
+              <div class="tooltip-channel-info">
+                <p style="font-weight: bold">Linux Lex</p>
+                <p style="color: rgb(110, 110, 110)">116K subscribers</p>
+              </div>
+            </div>
+            <a href="https://www.youtube.com/@LinuxTex"> </a>
+          </div>
+          <div class="vid-info">
+            <div class="vid-title">
+              <p>
+                29 Things You MUST DO After Installing Debian 12 (For 2023!)
+              </p>
+            </div>
+            <div class="vid-author">
+              <p>Linux Lex</p>
+            </div>
+            <div class="vid-status">
+              <p>95k views &middot; 9 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-preview-box2 vid-prev">
+        <div class="one-vertical">
+          <a href="https://www.youtube.com/watch?v=3FIArIaEyR0">
+            <img class="vid-thumbnail" src="Thumbnail/hq720.webp" />
+          </a>
+          <div class="video-time">38:10</div>
+        </div>
+
+        <div class="vid-info-grid">
+          <div class="channel">
+            <div class="info">
+              <img
+                class="pfp-char-tooltip"
+                src="Channel/channels4_profile.jpg"
+              />
+              <div class="tooltip-channel-info">
+                <p style="font-weight: bold">ibxtoycat</p>
+                <p style="color: rgb(110, 110, 110)">1.88M subscribers</p>
+              </div>
+            </div>
+            <a href="https://www.youtube.com/@toycat">
+              <img class="pfp-char" src="Channel/channels4_profile.jpg" />
+            </a>
+          </div>
+          <div class="vid-info">
+            <div class="vid-title">
+              <p>Downgrading To Old Versions of Bedrock: This Feels Illegal</p>
+            </div>
+            <div class="vid-author">
+              <p>ibxtoycat</p>
+            </div>
+            <div class="vid-status">
+              <p>106K views &middot; 4 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-preview-box vid-prev">
+        <div class="one-vertical">
+          <a href="https://www.youtube.com/watch?v=zrnXNYjsgps">
+            <img class="vid-thumbnail" src="Thumbnail/vid3.jpg" />
+          </a>
+          <div class="video-time">4:12</div>
+        </div>
+
+        <div class="vid-info-grid">
+          <div class="channel">
+            <div class="info">
+              <img class="pfp-char-tooltip" src="Channel/pfp3.jpg" />
+              <div class="tooltip-channel-info">
+                <p style="font-weight: bold">Carm</p>
+                <p style="color: rgb(110, 110, 110)">51K subscribers</p>
+              </div>
+            </div>
+            <a href="https://www.youtube.com/@Carm222">
+              <img class="pfp-char" src="Channel/pfp3.jpg" />
+            </a>
+          </div>
+          <div class="vid-info">
+            <div class="vid-title">
+              <p>Carm - Philautia (Prod.by Lee)</p>
+            </div>
+            <div class="vid-author">
+              <p>Carm</p>
+            </div>
+            <div class="vid-status">
+              <p>10M views &middot; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-preview-box2 vid-prev">
+        <div class="one-vertical">
+          <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22055s">
+            <img class="vid-thumbnail" src="Thumbnail/vid4.webp" />
+          </a>
+          <div class="video-time">6:14:12</div>
+        </div>
+
+        <div class="vid-info-grid">
+          <div class="channel">
+            <div class="info">
+              <img class="pfp-char-tooltip" src="Channel/pfp4.jpg" />
+              <div class="tooltip-channel-info">
+                <p style="font-weight: bold">SuperSimpleDev</p>
+                <p style="color: rgb(110, 110, 110)">422K subscribers</p>
+              </div>
+            </div>
+            <a href="https://www.youtube.com/@SuperSimpleDev">
+              <img class="pfp-char" src="Channel/pfp4.jpg" />
+            </a>
+          </div>
+          <div class="vid-info">
+            <div class="vid-title">
+              <p>HTML & CSS Full Course - Beginner to Pro</p>
+            </div>
+            <div class="vid-author">
+              <p>SuperSimpleDev</p>
+            </div>
+            <div class="vid-status">
+              <p>9.4M views &middot; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-preview-box vid-prev">
+        <div class="one-vertical">
+          <a href="https://www.youtube.com/watch?v=AGRe9D4kXEY">
+            <img class="vid-thumbnail" src="Thumbnail/vid5.webp" />
+          </a>
+          <div class="video-time">25:06</div>
+        </div>
+
+        <div class="vid-info-grid">
+          <div class="channel">
+            <div class="info">
+              <img class="pfp-char-tooltip" src="Channel/pfp5.jpg" />
+              <div class="tooltip-channel-info">
+                <p style="font-weight: bold">Internet Anarchist</p>
+                <p style="color: rgb(110, 110, 110)">796K subscribers</p>
+              </div>
+            </div>
+            <a href="https://www.youtube.com/@InternetAnarchist">
+              <img class="pfp-char" src="Channel/pfp5.jpg" />
+            </a>
+          </div>
+          <div class="vid-info">
+            <div class="vid-title">
+              <p>How Tyler Oliveira Destroyed His Reputation...</p>
+            </div>
+            <div class="vid-author">
+              <p>Internet Anarchist</p>
+            </div>
+            <div class="vid-status">
+              <p>372K views &middot; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid-preview-box2 vid-prev">
+        <div class="one-vertical">
+          <a href="https://i.imgflip.com/w9wrd.jpg">
+            <img class="vid-thumbnail" src="Thumbnail/vid6.webp" />
+          </a>
+          <div class="video-time">15:16</div>
+        </div>
+
+        <div class="vid-info-grid">
+          <div class="channel">
+            <div class="info">
+              <img class="pfp-char-tooltip" src="Channel/pfp6.jpg" />
+              <div class="tooltip-channel-info">
+                <p style="font-weight: bold">hoser</p>
+                <p style="color: rgb(110, 110, 110)">643K subscribers</p>
+              </div>
+            </div>
+            <a href="https://www.youtube.com/@h0ser">
+              <img class="pfp-char" src="Channel/pfp6.jpg" />
+            </a>
+          </div>
+          <div class="vid-info">
+            <div class="vid-title">
+              <p>China's New, New Plan</p>
+            </div>
+            <div class="vid-author">
+              <p>hoser</p>
+            </div>
+            <div class="vid-status">
+              <p>639K views &middot; 9 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pakyo">PAPAPAKYOOOOOOO:></div>
+  </body>
+</html>
